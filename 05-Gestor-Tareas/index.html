@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+</head>
+<body>
+    <main>
+        <h1>Gestor de Tareas</h1>
+        <section>
+            <input type="text" id="qNecesitaHacer" placeholder="¿Qué necesitas hacer hoy?"/>
+            <button id="agregarTarea">Agregar tarea</button>
+            <ul id="listaTareas">
+                <li>
+                    <input type="checkbox" id="tarea1" />
+                    <span>Estudiar etiquetas semánticas</span>
+                    <button id="DelTarea1">X</button>
+                </li>
+                <li>
+                    <input type="checkbox" id="tarea2" checked/>
+                    <span>Tomar dos litros de agua</span>
+                    <button id="DelTarea2">X</button>
+
+                </li>
+                <li>
+                    <input type="checkbox" id="tarea3" />
+                    <span>Avanzar con el proyecto de GitHub</span>
+                    <button id="DelTarea3">X</button>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <p>Tienes 2 tareas pendientes</p>
+            <button id="limpiarTareasCompletadas">limpiar completadas</button>
+        </footer>
+    </main>
+</body>
+</html>

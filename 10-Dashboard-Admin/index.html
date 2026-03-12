@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Appwise</title>
+</head>
+<body>
+   <aside>
+        <h2>Appwise Admin</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Usuarios</a></li>
+                <li><a href="#">Reportes</a></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+        </nav>
+   </aside> 
+   <main>
+        <header>
+            <input type="search" placeholder="Buscar en el panel..">
+            <h5> Hola, Admin</h5>
+            <img src="assets/avatar.png" alt="Avatar" width="50" height="50"/>
+        </header>
+        <section>
+            <article>
+                <h3>USUARIOS ACTIVOS</h3>
+                <P>1530</P>
+            </article>
+            <article>
+                <h3>VENTAS DEL MES</h3>
+                <P>14500</P>
+            </article>
+            <article>
+                <h3>TICKET PENDIENTES</h3>
+                <P>8</P>
+            </article>
+        </section>
+        <section>
+            <h2>Actividad Reciente</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Acción</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>carlos.dev</td>
+                        <td>Subió un nuevo proyecto</td>
+                        <td>Completado</td>
+                   </tr> 
+                   <tr>
+                        <td>Ana.ui</td>
+                        <td>Actualizó perfil</td>
+                        <td>Completado</td>
+                   </tr> 
+                   <tr>
+                        <td>juan.perez</td>
+                        <td>Intento de pago</td>
+                        <td>Fallido</td>
+                   </tr> 
+                </tbody>
+            </table>
+        </section>
+   </main>
+   <dialog open>
+        <h3>Añadir nuevo usuario</h3>
+        <form>
+            <input type="text" placeholder="Ingresar nombre de usuario" required>
+            <button type="submit" id="cancelar">Cancelar</button>
+            <button type="submit" id="guardar">Guardar</button>
+        </form>
+   </dialog>     
+</body>
+</html>
