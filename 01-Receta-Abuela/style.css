@@ -1,0 +1,31 @@
+.TitlePpal {
+    align-items: center;
+    height: 50px;
+    background: #f0f0f0;
+    color: #e23b3b;
+    font-size: 22px;
+    text-align: center;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.title-secodary {
+    color: #e23b3b;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    /* Espaciado interno */
+    background: #f0f0f0;
+    color: #e23b3b;
+    font-style: italic;
+}
+.list {
+    font-size: 12px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
