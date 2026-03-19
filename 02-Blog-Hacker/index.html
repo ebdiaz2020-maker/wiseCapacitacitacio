@@ -4,38 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     
     <header>
-      <h1>Terminal Web - El Blog del Dev</h1>
+      <h1 class="title">Terminal Web - El Blog del Dev</h1>
       <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Artículos</a></li>
-          <li><a href="#">Contacto</a></li>
+        <ul class="ul-top">
+          <li class="art"><a class="li" href="#">Inicio</a></li>
+          <li class="art"><a class="li" href="#">Artículos</a></li>
+          <li class="art"><a class="li" href="#">Contacto</a></li>
         </ul>
       </nav>
-      <hr />
+      <hr class="dotted-line" />
     </header>
 
-    <main>
-      <article>
+    <main class="main">
+      <article class="article">
         <h2>Cómo sobrevivir al CSS sin volverse loco</h2>
         <p>Escrito por Neo - 15 de Octubre.</p>
         <figure>
-          <img src="assets/hacker-setup.jpg" alt="hacker setup" width="400" height="250" />
+          <img class="img-main" src="assets/hacker-setup.jpg" alt="hacker setup" width="400" height="250" />
           <figcaption>Un desarrollador intentando centrar un div.</figcaption>
         </figure>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla sunt minima laborum nemo hic, rem harum fuga quasi eos similique vitae, animi alias, esse numquam? Laborum hic labore cupiditate.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam beatae sequi dicta est praesentium aut repudiandae fugiat dolore accusamus ex nihil, aliquam libero reprehenderit expedita molestias, magnam ab facere?</p>
       </article>
-      <aside>
-        <h3>Sobre el Autor</h3>
-        <p>Un párrafo breve que describa a un hacker misterioso que toma mucho café.</p>
+      <aside >
+        <div class="div-aside">
+          <h3 class="title-aside">Sobre el Autor</h3>
+          <hr class="asside-line">
+          <p>Un párrafo breve que describa a un hacker misterioso que toma mucho café.
+            Un párrafo breve que describa a un hacker misterioso que toma mucho café.
+            Un párrafo breve que describa a un hacker misterioso que toma mucho café.
+            Un párrafo breve que describa a un hacker misterioso que toma mucho café.
+            Un párrafo breve que describa a un hacker misterioso que toma mucho café.
+          </p>
+        </div>
       </aside>    
     </main>
-    <footer>
+    <footer class="foot">
       <hr />
       <p>"© 2024 Terminal Web. Todos los derechos reservados.</p>   
     </footer>
