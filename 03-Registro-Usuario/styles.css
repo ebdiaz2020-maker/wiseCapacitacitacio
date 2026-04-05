@@ -1,0 +1,48 @@
+.form {
+    width: 400px;
+    /* ancho fijo o máximo */
+    margin: 40px auto;
+    /* auto lo centra horizontalmente */
+    padding: 20px;
+    border: 1px solid #5736cf;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+body {
+    background-color: #5736cf;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+.buttonCrear {
+    background-color: #5736cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.inputT {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    /* casi todo el ancho del form */
+    box-sizing: border-box;
+    /* incluye padding y border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
