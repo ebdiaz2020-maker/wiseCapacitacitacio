@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#qNecesitaHacer {
+    flex: 1;
+    padding: 10px 15px;            /* Más alto y ancho */
+    font-size: 18px;               /* Texto más grande */
+    border: 2px solid #ddd;      /* Borde sutil */
+    border-radius: 10px;           /* Esquinas redondeadas */
+    outline: none;                 /* Quita outline al enfocar */
+    transition: border-color 0.3s; /* Suave cambio al hover/focus */
+}
+
+#agregarTarea {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px; /* esquinas redondeadas */
+    background-color: rgb(148, 146, 247);
+}
+
+#listaTareas {
+    list-style: none;  /* Elimina viñetas */
+    padding: 0;    /* Quita padding izquierdo por defecto */
+    margin: 20px 0; /* Espacio arriba/abajo */
+    width: 100%;
+    max-width: 400px; /* Mantiene centrado */
+}
+
+#listaTareas li {
+    display: flex;    /* Centra verticalmente checkbox, texto y botón */
+    gap: 10px;       /* Espacio entre elementos */
+    padding: 12px;
+    background: #f8f9fa;  /* Fondo  */
+    margin-bottom: 8px;   /* Barra izquierda para estilo */
+}
+
+#listaTareas span {
+    flex: 1; /* Texto ocupa espacio disponible */
+}
+
+#listaTareas button {
+    color: rgb(224, 52, 52);
+    border: none;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;      /* Centra verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    gap: 15px;   /* Espacio entre p y botón */
+    padding: 20px;
+    border-top: 1px solid #ddd;  /* linea */
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;    /* Quita margen por defecto */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#limpiarTareasCompletadas {
+    padding: 10px 20px;
+    background: #eff1ef;
+    color: rgb(238, 70, 70);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.contenedor-input-button {
+    display: flex;
+    flex-direction: row; /* Línea horizontal */
+    align-items: center;  /* Centra verticalmente */
+    gap: 10px; /* Espacio entre elementos */
+    width: 100%;
+    max-width: 400px;
+}
