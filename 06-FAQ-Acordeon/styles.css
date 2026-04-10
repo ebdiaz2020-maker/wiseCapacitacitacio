@@ -1,0 +1,72 @@
+.centrado {
+    text-align: center;   /* Centrado horizontal */
+}
+
+details {
+    background: #f8f9fa;
+    /* Gris claro */
+    border: 1px solid #e9ecef;
+    /* Borde sutil */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    padding: 0;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra opcional */
+    overflow: hidden;
+    /* Limpia bordes */
+}
+
+summary {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    list-style: none;
+    /* Quita marcador nativo */
+    position: relative;
+    transition: background 0.3s;
+}
+
+summary::-webkit-details-marker,
+summary::marker {
+    display: none;
+    /* Oculta flecha nativa en todos browsers */
+}
+
+summary::after {
+    content: "+";
+    /* Icono + */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    transition: transform 0.3s;
+}
+
+
+details[open] summary {
+    background: #e9ecef; /* Cambia color al abrir */
+    color: #007bff;
+}
+details[open] {
+    border: 2px solid #007bff; /* Recuadro celeste completo */
+    border-radius: 10px;       /* Esquinas redondeadas */
+   }
+
+details p {
+    padding: 0 20px 20px; /* Contenido con margen */
+    color: #666;
+  
+}
+/* cuando cerrado */
+summary:not([open])::after {
+    content: "+";
+}
+
+/* cuando abierto  */
+details[open] summary::after {
+    content: "-";
+}
