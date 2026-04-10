@@ -51,6 +51,7 @@ details[open] summary {
     background: #e9ecef; /* Cambia color al abrir */
     color: #007bff;
 }
+
 details[open] {
     border: 2px solid #007bff; /* Recuadro celeste completo */
     border-radius: 10px;       /* Esquinas redondeadas */
@@ -58,9 +59,9 @@ details[open] {
 
 details p {
     padding: 0 20px 20px; /* Contenido con margen */
-    color: #666;
-  
+    color: #666; 
 }
+
 /* cuando cerrado */
 summary:not([open])::after {
     content: "+";
