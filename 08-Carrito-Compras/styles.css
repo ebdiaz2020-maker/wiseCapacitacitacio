@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  align-items: center;  /* Alinea verticalmente en el centro */
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  height : 50px;
+  margin : 0;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: #f0ecec;
+}
+
+.ul-productos {
+  display: flex;
+  list-style: none; /* Quita bullets */
+  gap: 2rem; /* Espacio entre items */
+  padding: 0;  /* Elimina padding por defecto */
+}
+
+aside {
+  width: 300px;  /* Ancho fijo para aside */
+  min-width: 300px;
+  background: white;
+  padding: 1rem; /* Espacio interno */
+  border-radius: 8px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado */
+  margin: 1rem 0; /* Margen superior e inferior */
+  height: 300px;
+}
+section {
+  flex: 1; /* Section ocupa el espacio restante */
+}
+
+main {
+  display: flex;
+  gap: 3rem; /* Espacio entre aside y section */
+}
+
+.boton-header{
+  font-color :white;
+  background-color: rgb(231, 138, 138);
+}
+
+li {
+  background: white; /* Fondo blanco */
+  border: 2px solid #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado */
+  padding: 1rem; /* Espacio interno */
+  border-radius: 8px; /* Esquinas redondeadas */
+  text-align: center;
+}
+.ul-inferior{
+  list-style: none;
+}
+
+.btn-productos {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px; /* Espacio interno */
+  border-radius: 5px; /* Esquinas redondeadas */
+  font-size: 15px;
+  cursor: pointer;
+}
+.texto-producto-precio {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(49, 221, 72);
+  align-items: center;
+}
+.btn-resumenCompras {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px; /* Espacio interno */
+  border-radius: 5px; /* Esquinas redondeadas */
+  font-size: 15px;
+  cursor: pointer;
+}
